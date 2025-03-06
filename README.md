@@ -1,2 +1,8 @@
-# Gestion_des_reservations_hotel
-Application frontend de reservation des chambres d'hotel faite avec React.js. Desing 'friendly' et beau pour le reste de l'application le backend a été developper avec Node.js et la base des donnée est gerer avec MongoDb.
+# React + Vite
+
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh

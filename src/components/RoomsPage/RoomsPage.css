@@ -1,0 +1,294 @@
+.bodybgroom {
+  background: url('/src/assets/bedroomBg.png') no-repeat;
+  background-size: cover;
+  height: 72vh;
+  width: 200vh;
+  background-color: transparent;
+}
+.mainroom {
+  /* height: 338vh; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  overflow: hidden;
+  
+}
+.p1{
+  margin-top: 5px;
+}
+
+.img1 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.lst-p{
+  color: white;
+}
+.logo{
+  width: 120px;
+  height: 100px;
+}
+.wlcbr{
+  margin-top: 130px;
+  margin-left: 190px;
+  color: #14274a;
+
+}
+#stlmontserate{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 11px;
+}
+h3{
+  font-family: "adobe-garamond-pro", serif;
+  font-weight: 60;
+  font-style: normal;
+  font-size: 30px;
+}
+.nomttl{
+  font-family: "adobe-garamond-pro", serif;
+  font-weight: 154;
+  font-style: normal;
+  font-size: 55px;
+}
+#wlcmontserate{
+  font-family: 'Montserrat', sans-serif;
+}
+.Booknow{
+width: 108px;
+height: 40px;
+background-image: url('../../assets/Booknow.png');
+background-size: cover;
+background-position: center;
+border: none;
+cursor: pointer; 
+border-radius: 3px;
+box-shadow: 0px 0px 0.1px 0.5px;
+margin-top: 15px;
+}
+.positionbt{
+margin-top: -8px;
+margin-left: 50%;
+}
+
+.contenairttlbody{
+  height: 70px;
+  width: 420px;
+  background-color: white;
+  margin-top: 30px;
+  margin-left: 25px;
+  text-align: center;
+}
+.randr{
+  font-family: "adobe-garamond-pro", serif;
+  font-weight: 60;
+  font-style: normal;
+  font-size: 20px;
+  color: #14274a;
+}
+.description-text2 {
+  font-size:80px;
+  color: #14274a;
+  line-height: 1.5;
+  margin-top: 10px;
+}
+#stlmontserate2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 8px;
+}
+.singleroom{
+  width: 650px;
+  height: 480px;
+  background-color: white;
+  border: solid 1px ;
+  border-color: blue;
+  border-radius: 0px 0px 5px 5px;
+}
+.doubleroom{
+  width: 650px;
+  height: 480px;
+  background-color: white;
+  border: solid 1px ;
+  border-color: blue;
+  border-radius: 0px 0px 5px 5px;
+}
+.twinroom{
+  width: 650px;
+  height: 450px;
+  background-color: white;
+  border: solid 1px ;
+  border-color: blue;
+  border-radius: 0px 0px 5px 5px;
+}
+.singleroomttl{
+  width: 100%;
+  height: 50px;
+  background-color:  #14274a;
+  margin-top: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: small;
+  color: white;
+  z-index: 100;
+}
+.vroomdetails{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-image: url('../../assets/vroomdetails.png');
+    background-size: cover;
+    background-position: center;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    bottom: -405px;
+    right: 870px;
+}
+.vroomdetailsttl{
+  font-family: 'Montserrat', Bold;
+  font-size: 7px;
+  margin-left: 100px;
+  position: absolute;
+  bottom: -398px;
+  color:#14274a;
+  letter-spacing: 1px;
+  z-index: 100;
+}
+.singleroomimg{
+  width: 51.4%;
+  height: 57%;
+  /* background-color: aqua; */
+  position: absolute;
+}
+.imgroom1 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.avg{
+  position: absolute;
+  width: 120px;
+  height: 35px;
+  background-color: rgb(224, 185, 115);
+  margin-top: 422px;
+  margin-left: 470px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+.avgttl{
+  font-family: 'Montserrat', Bold;
+  font-size: 10px;
+  /* margin-left: 100px;
+  position: absolute;
+  bottom: -412px; */
+  color:white;
+  letter-spacing: 1px;
+}
+
+
+.doubleroomimg{
+  width: 51.4%;
+  height: 57%;
+  /* background-color: aqua; */
+  position: absolute;
+}
+.imgroom2 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.doubleroomttl{
+  width: 100%;
+  height: 50px;
+  background-color:  #14274a;
+  margin-top: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: small;
+  color: white;
+  z-index: -10;
+}
+.vdoubleroomdetailsttl{
+  font-family: 'Montserrat', Bold;
+  font-size: 7px;
+  margin-left: 100px;
+  position: absolute;
+  bottom: -900px;
+  color:#14274a;
+  letter-spacing: 1px;
+  z-index: 100;
+}
+.vdoubleroomdetails{
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-image: url('../../assets/vroomdetails.png');
+  background-size: cover;
+  background-position: center;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  bottom: -908px;
+  right: 870px;
+}
+
+
+
+.twinroom{
+  width: 650px;
+  height: 480px;
+  background-color: white;
+  border: solid 1px ;
+  border-color: blue;
+  border-radius: 0px 0px 5px 5px;
+}
+.twinroomimg{
+  width: 51.4%;
+  height: 57%;
+  /* background-color: aqua; */
+  position: absolute;
+}
+.imgroom3 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.vtwinroomdetails{
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-image: url('../../assets/vroomdetails.png');
+  background-size: cover;
+  background-position: center;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  bottom: -1410px;
+  right: 870px;
+}
+.vtwinroomdetailsttl{
+  font-family: 'Montserrat', Bold;
+  font-size: 7px;
+  margin-left: 100px;
+  position: absolute;
+  bottom: -1402px;
+  color:#14274a;
+  letter-spacing: 1px;
+  z-index: 100;
+}
+.twinroomttl{
+  width: 100%;
+  height: 50px;
+  background-color:  #14274a;
+  margin-top: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: small;
+  color: white;
+  z-index: -10;
+}

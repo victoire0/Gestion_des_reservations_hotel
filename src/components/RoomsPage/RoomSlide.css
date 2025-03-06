@@ -1,0 +1,41 @@
+.room-slide {
+  width: 300px; /* Largeur du conteneur */
+  height: 1579px; /* Hauteur du conteneur */
+  /* overflow: hidden; */
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  
+  .slide-btn1 {
+    width: 30px;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    bottom: 1330px;
+    border-radius: 50%;
+    left: -32px;
+  }
+  .slide-btn2 {
+    width: 30px;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    bottom: 1330px;
+    border-radius: 50%;
+    left: 650px;
+  }
+  
+  .slide-image {
+  width: 216.2%;
+  height: 22.4%;
+  object-fit: cover;
+  position: absolute;
+  z-index: -10px;
+  left: 0px;
+  bottom: 1225.3px;
+  }
+  

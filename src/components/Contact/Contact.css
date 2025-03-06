@@ -1,0 +1,122 @@
+.body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+  }
+  
+  .contact-header {
+    background-color: #14274a;
+    color: white;
+    padding: 20px 10px;
+  }
+  .ttl{
+    color: #14274a;
+  }
+  
+  
+  .contact-main {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 20px;
+  }
+  
+  .contact-info {
+    margin-top: 60px;
+    max-width: 500px;
+  }
+  
+  .contact-info h2 {
+    color: #14274a;
+    font-size: 1.5rem;
+  }
+  
+  .contact-info a.view-map {
+    color: #001f54;
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+    margin: 10px 0;
+  }
+  
+  .contact-form {
+    text-align: left;
+    max-width: 400px;
+  }
+  
+  .contact-form label {
+    display: block;
+    font-weight: bold;
+    margin: 10px 0 5px;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .contact-form textarea {
+    height: 100px;
+    min-height: 100px;
+    max-width: 400; 
+  }
+  
+  .submit-button {
+    background-color: #d4a353;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .contact-footer {
+    background-color: #1c386c;
+    margin-top: 53px;
+    color: white;
+    padding: 20px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: x-small;
+  }
+  
+  .footer-info, .footer-links, .footer-social {
+    margin: 10px;
+  }
+  
+  .footer-links a, .footer-social a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  #name {
+    width: 180px;
+    height: 30px;
+
+  }
+  #email{
+    width: 200px;
+    height: 30px;
+  }
+  .location{
+    font-size: 10px;
+    color: #14274a;
+    line-height: 1.3;
+    margin-bottom: 50px;
+  }
+  .paragra{
+    font-size: 15px;
+    color: #14274a;
+    line-height: 1.4;
+    margin-bottom: 50px;
+  }
+  .contact-container{
+    height: 50vh;
+  }
+  
